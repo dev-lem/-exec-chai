@@ -1,10 +1,12 @@
-# Exec-Chai
-Ultra-fast Lua executor for Roblox with a clean UI.
+# Exec-Chai 
+Ultra-fast and stable Lua executor for Roblox
 
 ## Features
-- **Fast Execution**: No unnecessary preprocessing
-- **Stable**: Protected environment with error handling
-- **Modern GUI**: Draggable interface with code editor
+- Lightning-fast script execution
+- Clean, draggable interface
+- Built-in error protection
+- Persistent across respawns
 
-## Usage
+## Installation
 ```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dev-lem/-exec-chai/main/main.lua"))()
